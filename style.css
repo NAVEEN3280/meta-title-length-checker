@@ -184,6 +184,14 @@ label {
   display: flex;
   flex-direction: column;
 }
+.preview p {
+  display: block;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  max-width: 100%;
+  line-height: 1.5;
+}
 @media (max-width: 768px) {
   .container {
     margin: 0rem;
